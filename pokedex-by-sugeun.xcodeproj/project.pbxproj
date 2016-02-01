@@ -18,6 +18,7 @@
 		C893803B1C5F2D5C007C4DCA /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C893803A1C5F2D5C007C4DCA /* csv.swift */; };
 		C89380401C5F32A6007C4DCA /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C893803F1C5F32A6007C4DCA /* Pokemon.ttf */; };
 		C89380421C5F3BF7007C4DCA /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C89380411C5F3BF7007C4DCA /* music.mp3 */; };
+		E6459FC91C5F9D2F005E2616 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6459FC81C5F9D2F005E2616 /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C893803A1C5F2D5C007C4DCA /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		C893803F1C5F32A6007C4DCA /* Pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon.ttf; sourceTree = "<group>"; };
 		C89380411C5F3BF7007C4DCA /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		E6459FC81C5F9D2F005E2616 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		C893803D1C5F2D84007C4DCA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E6459FC81C5F9D2F005E2616 /* PokemonDetailVC.swift */,
 				C89380221C5EF034007C4DCA /* ViewController.swift */,
 			);
 			name = Controller;
@@ -200,6 +203,7 @@
 				C89380391C5EFD2D007C4DCA /* PokeCell.swift in Sources */,
 				C89380231C5EF034007C4DCA /* ViewController.swift in Sources */,
 				C89380211C5EF034007C4DCA /* AppDelegate.swift in Sources */,
+				E6459FC91C5F9D2F005E2616 /* PokemonDetailVC.swift in Sources */,
 				C89380361C5EF422007C4DCA /* Pokemon.swift in Sources */,
 				C893803B1C5F2D5C007C4DCA /* csv.swift in Sources */,
 			);
@@ -351,6 +355,7 @@
 				C89380311C5EF035007C4DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
