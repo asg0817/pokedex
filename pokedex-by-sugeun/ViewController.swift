@@ -25,7 +25,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         collection.delegate = self
         collection.dataSource = self
         searchBar.delegate = self
-        
+
         /////조금 더 생각
       // let tapRecognizer = UITapGestureRecognizer()
       //tapRecognizer.numberOfTapsRequired = 2
